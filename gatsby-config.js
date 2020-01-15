@@ -6,4 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-emotion`,
+  ],
 }
